@@ -49,10 +49,14 @@
 
     // Menampilkan hasil untuk data bonus 1
     echo "<h2>Data Bonus 1:</h2>";
+    echo "<p>Lumba-lumba (97,112,101): " . hitungRataRata($data_bonus_1_lumba) . "</p>";
+    echo "<p>Koala (109,95,123): " . hitungRataRata($data_bonus_1_koala) . "</p>";
     echo "<p>" . tentukanPemenang($data_bonus_1_lumba, $data_bonus_1_koala, $skor_minimum) . "</p>";
 
     // Menampilkan hasil untuk data bonus 2
     echo "<h2>Data Bonus 2:</h2>";
+    echo "<p>Lumba-lumba (97,112,101): " . hitungRataRata($data_bonus_2_lumba) . "</p>";
+    echo "<p>Koala (109,95,106): " . hitungRataRata($data_bonus_2_koala) . "</p>";
     echo "<p>" . tentukanPemenang($data_bonus_2_lumba, $data_bonus_2_koala, $skor_minimum) . "</p>";
     ?>
 </body>
